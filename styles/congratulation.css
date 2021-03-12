@@ -1,0 +1,96 @@
+@import "./fonts.css";
+
+body {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  background: #253238;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 366px;
+  background: url("../assets/images/background.svg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+height: 40vh;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+height: 60VH;
+}
+
+.body-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #fdb32b;
+  margin: 30px 83px 16px;
+  font-weight: 700;
+}
+
+.body-text {
+  margin: 0 24px 28px;
+}
+
+.footer-title {
+  margin: 16px 24px 20px;
+  font-weight: 700;
+}
+
+.footer-text {
+  margin: 0px 24px 33px;
+  font-weight: 700;
+}
+
+.footer-button {
+  background: #e4511d;
+  text-decoration: none;
+  outline: none;
+  border: 1px solid #e4511d;
+  padding: 16px 115px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 350px) {
+  .header {
+    background: url("../assets/images/background-mobile.svg") center no-repeat;
+  }
+}
+
+@media (max-width: 330px) {
+  .footer-button {
+    padding: 16px 100px;
+  }
+}
